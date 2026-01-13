@@ -46,35 +46,40 @@ Markdown
 ├── pubspec.yaml          # Flutter dependencies
 └── .gitignore            # Files excluded from GitHub
 ```
-⚙️ Setup & Installation
+## ⚙️ Setup & Installation
 1. Mobile App
 Clone the repository:
 
 Bash
-
+```
 git clone [https://github.com/ssijan/PlantKeeper-IoT-Based-Automatic-Plant-Guiding-System.git](https://github.com/ssijan/PlantKeeper-IoT-Based-Automatic-Plant-Guiding-System.git)
+```
 Navigate to the project directory:
 
 Bash
-
+```
 cd "IoT app/IoT app"
+```
 Install dependencies:
 
 Bash
-
+```
 flutter pub get
+```
 Run the app:
 
 Bash
-
+```
 flutter run
+```
 2. ThingSpeak Setup
+```
 Create a New Channel on ThingSpeak.
 
 Enable 4 Fields (Temp, Humidity, Light, Soil).
 
 Copy your Channel ID and Read/Write API Keys into your ESP32 code and Flutter app.
-
-🤝 Contributing
+```
+## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
