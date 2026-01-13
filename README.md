@@ -45,6 +45,7 @@ Markdown
 ├── assets/               # App icons and images
 ├── pubspec.yaml          # Flutter dependencies
 └── .gitignore            # Files excluded from GitHub
+```
 ⚙️ Setup & Installation
 1. Mobile App
 Clone the repository:
